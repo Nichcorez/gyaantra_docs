@@ -17,12 +17,19 @@ Gyaantra is your intelligent document assistant. Upload multiple PDFs and start 
 -  Conversation memory with follow-up handling
 -  LLM integration via [Groq’s LLaMA 3](https://groq.com/)
 -  Answer length options (Short, Medium, Long)
--  Download chat history as PDF
 -  Clear chat option
 -  Avatar UI with chat bubbles
 -  Sidebar tips and credits
 
-
+## Working  
+1. Document Processing: PDFs are parsed and split into manageable chunks
+2. Embedding Generation: Text chunks are converted to vector embeddings using HuggingFace models
+3. Vector Storage: Embeddings are stored in FAISS for fast similarity search
+4. Query Processing: User questions are embedded and matched against document chunks
+5. Context Retrieval: Relevant chunks are retrieved and passed to the LLM
+6. Response Generation: Groq's Llama3 model generates contextual answers
+    
+![Gyaantra-Working](https://github.com/user-attachments/assets/c8f7131a-e9ed-47d1-bf44-4ab933c3ff07)
 
 ##  Tech Stack
 
