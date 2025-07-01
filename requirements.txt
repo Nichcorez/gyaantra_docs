@@ -1,5 +1,5 @@
 langchain
-lamgchain-community
+langchain-community
 streamlit
 pypdf2
 python-dotenv
@@ -9,4 +9,3 @@ huggingface-hub
 InstructorEmbedding
 sentence-transformers
 langchain-openai
-fpdf
