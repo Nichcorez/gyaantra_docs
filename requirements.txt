@@ -1,0 +1,12 @@
+langchain
+lamgchain-community
+streamlit
+pypdf2
+python-dotenv
+faiss-cpu
+openai
+huggingface-hub
+InstructorEmbedding
+sentence-transformers
+langchain-openai
+fpdf
