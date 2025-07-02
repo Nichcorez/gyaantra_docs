@@ -1,7 +1,7 @@
 # 📚 Gyaantra: Chat with Your PDFs 
 
 Gyaantra is your intelligent document assistant. Upload multiple PDFs and start asking questions instantly. Powered by LLMs, embeddings, and Streamlit, it gives contextual answers straight from your documents.
-
+[Live link](https://gyaantra-docs.onrender.com)
 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/6b07e989-f310-454b-a3b6-4e082199cf3c)
